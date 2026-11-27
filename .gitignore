@@ -3,6 +3,19 @@
 .Rhistory
 .RData
 .RDataTmp*
+.Rproj
+console_history.*
+code_history.Rhistory
+
+# Project notes and exported document copies
+/*.png
+/*.pdf
+*.docx
+*.docx.pdf
+project_context.md
+Figure_8_code.R
+Figure_11_Outgoing_Signaling.pdf
+Ovarian_CAR_T_Project.Rproj
 
 # Large raw data and exports
 Xenium_Prime_Ovarian_Cancer_FFPE_XRrun_outs.zip
@@ -10,6 +23,9 @@ Xenium_data/
 *.h5
 *.parquet
 *.rds
+*.csv
+*.tsv
+*.txt
 
 # Keep the main saved object only if you explicitly want it versioned.
 # Remove the next line if you decide to track xenium_processed.rds.
@@ -21,4 +37,40 @@ Rplot*.png
 *.tmp
 *.log
 
-# Keep source scripts and final figures/results in GitHub.
+# Working analysis folders that are not part of the final GitHub handoff
+Figure_11_CellChat_logged/
+Figure_11_CellChat_revised_20261011/
+figures/Finalized Figures (11_26_28)/
+results/
+
+# Keep only the final manuscript scripts
+Scripts/*.R
+!Scripts/Figure_3_spatial_distribution.R
+!Scripts/Figure_4_celltype_umap.R
+!Scripts/Figure_5_marker_umap.R
+!Scripts/Figure_6_immune_marker_violins.R
+!Scripts/Figure_7_spatial_cd8a_cd4_panel.R
+!Scripts/Figure_8_distance_analysis.R
+!Scripts/Figure_9_cellchat_network.R
+!Scripts/Figure_10_key_interactions.R
+!Scripts/Figure_11_outgoing_signaling.R
+
+# Keep only the final figure files.
+figures/*
+!figures/
+!figures/Figure3_spatial_distribution.png
+!figures/Figure4_celltype_umap.png
+!figures/Figure4_celltype_umap.pdf
+!figures/Figure5_gene_marker_umap.png
+!figures/Figure5_gene_marker_umap.pdf
+!figures/Figure6_immune_marker_violins.png
+!figures/Figure6_immune_marker_violins.pdf
+!figures/Figure7_spatial_cd8a_cd4_panel.png
+!figures/Figure7_spatial_cd8a_cd4_panel.pdf
+!figures/Figure8_distance_analysis.png
+!figures/Figure8_distance_analysis.pdf
+!figures/Figure9_cellchat_network.png
+!figures/Figure9_cellchat_network.pdf
+!figures/Figure10_key_interactions.png
+!figures/Figure10_key_interactions.pdf
+!figures/Figure11_outgoing_signaling_heatmap.pdf

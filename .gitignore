@@ -1,12 +1,24 @@
-Xenium_Prime_Ovarian_Cancer_FFPE_XRrun_outs.zip
-Ovarian_CAR_T_Project.Rproj
-code_history.Rhistory
+# RStudio / session files
+.Rproj.user/
 .Rhistory
-Xenium_data/*
-.Rproj.user/*
+.RData
+.RDataTmp*
 
-.RDataTmp
+# Large raw data and exports
+Xenium_Prime_Ovarian_Cancer_FFPE_XRrun_outs.zip
+Xenium_data/
+*.h5
+*.parquet
+*.rds
+
+# Keep the main saved object only if you explicitly want it versioned.
+# Remove the next line if you decide to track xenium_processed.rds.
 xenium_processed.rds
 
-Scripts/09_history_based_cellchat_analysis.R
-Scripts/10_code_history_cellchat_analysis.R
+# Temporary / scratch outputs
+Rplot*.pdf
+Rplot*.png
+*.tmp
+*.log
+
+# Keep source scripts and final figures/results in GitHub.

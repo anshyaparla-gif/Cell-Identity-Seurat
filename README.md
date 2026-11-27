@@ -150,12 +150,13 @@ This produced the first visualization of cellular clusters within the Xenium dat
 
 ```
 .
-├── data/
-│   └── Xenium dataset (not committed)
-├── scripts/
+├── Xenium_data/
+│   └── Xenium dataset files (local; not committed)
+├── Scripts/
 │   └── *.R
 ├── figures/
 ├── results/
+├── objects/
 └── README.md
 ```
 
@@ -178,3 +179,9 @@ Planned analyses include:
 - CellChat ligand-receptor communication
 - Statistical analysis of immune infiltration
 - Publication-quality figures
+
+---
+
+# Before Pushing to GitHub
+
+See [GITHUB_READY_CHECKLIST.md](GITHUB_READY_CHECKLIST.md) for a short upload checklist with recommended files to commit and files to leave out.
